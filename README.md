@@ -19,29 +19,51 @@ This repository contains the full pipeline for building, training, and deploying
 ## 🧱 Project Structure
 
 solana-price-prediction-api/
+
 ├── data/
+
 │ └── solana_hourly.csv # Historical price data
+
 │
+
 ├── scripts/
+
 │ └── fetch_solana.py # Solana data collection script
 │
+
 ├── models/
+
 │ ├── linear_regression_model.pkl
+
 │ ├── random_forest_model.pkl
+
 │ └── xgboost_model.pkl # Serialized trained models
 │
+
 ├── notebooks/
+
 │ └── notebook_analysis.ipynb # Main modeling & training notebook
+
 │
+
 ├── api_templates/
+
 │ └── [FastAPI/Flask-ready code here]
+
 │
+
 ├── docs/
+
 │ ├── 4C_Technical_Doc_Crypto_Stocks_Predictions_V1.pdf
+
 │ └── Planning_General.docx
+
 │
+
 ├── LICENSE
+
 ├── .gitignore
+
 └── README.md
 
 
